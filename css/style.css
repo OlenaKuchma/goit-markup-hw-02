@@ -1,66 +1,229 @@
+:root {
+}
+
 body {
   font-family: Roboto, sans-serif;
-  color: #2E2F42;
-  }
+  font-weight: 400;
+  color: #2e2f42;
+  background-color: #E5E5E5;
+}
 
-  .link {
-    text-decoration: none;
-  }
+.link {
+  text-decoration: none;
+}
 
-  .list {
-    list-style: none;
-  }
+.list {
+  list-style: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.button-color {
+  color: #F4F4FD;
+}
+.button-color:hover, .button:focus {
+  color: #404BBF;
+}
+/* ---------- HEADER ------------ */
 /* header-logo */
-.header-logo {
-  font-family: 'Raleway';
-   font-weight: 800;
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
   font-size: 18px;
   line-height: 24px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
-  }
- .logo-color {
-     color: #2E2F42;
-   }
+  color: #4d5ae5;
+}
+.logo-color {
+  color: #2e2f42;
+}
 
 /* header-link */
 
-
 .header-link {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  
 }
-.header-link:hover {
-  color: #404BBF;
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
 }
 /* header-address */
 
-.header-mail {
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.header-mail:hover {
-  color: #404BBF;}
-
+.header-mail,
 .header-tel {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: #434455;
-  }
+}
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
+  color: #404bbf;
+}
+
+/* ----------- HERO ------------- */
+
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+/*-------------- section 1 ------------*/
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 20;
+  letter-spacing: 0.02em;
   
-.header-tel:hover {
-  color: #404BBF;}
+}
+
+.feature-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 50;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* -------------doing-------------- */
+
+.doing-item {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(2368.jpg);
+  background-blend-mode: soft-light, normal;
+  border: 1px solid #e7e9fc;
+}
+
+/* ---------team------------------ */
+
+.doing-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+ 
+}
+
+.team-img {
+  width: 264px;
+  height: 260px;
+  background: url(confident-handsome-guy-posing-against-white-wall.jpg);
+  mix-blend-mode: normal;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+}
+.team-item-text {
+    font-size: 16px;
+  line-height: 1, 5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ------filters--------- */
+
+.button-text {
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.button-text:hover,
+.button-text:focus {
+  color: #ffffff;
+}
+
+/* ---------row-------------- */
+
+.row-img {
+  width: 360px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(4074365.jpg);
+  background-blend-mode: soft-light, normal;
+  mix-blend-mode: normal;
+}
+
+.row-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  
+}
+.row-text {
+  
+  font-size: 16px;
+  line-height: 1, 50;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ----------footer----------- */
+.footer-text {
+  
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.footer {
+  background: #2e2f42;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+}
+.footer-logo-color {
+  color: #f4f4fd;
+}
