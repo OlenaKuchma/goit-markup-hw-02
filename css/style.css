@@ -32,7 +32,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,17;
+  line-height: 1.17em;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -49,7 +49,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
   
 }
@@ -64,7 +64,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -83,7 +83,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -93,7 +93,7 @@ body {
 .feature-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 20;
+  line-height: 1.20;
   letter-spacing: 0.02em;
   
 }
@@ -101,7 +101,7 @@ body {
 .feature-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 50;
+  line-height: 1.50;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -128,7 +128,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -152,7 +152,7 @@ body {
 }
 .team-item-text {
     font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
@@ -165,7 +165,7 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -197,14 +197,14 @@ body {
 .row-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   
 }
 .row-text {
   
   font-size: 16px;
-  line-height: 1, 50;
+  line-height: 1.50;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -213,7 +213,7 @@ body {
 .footer-text {
   
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
