@@ -62,19 +62,20 @@ body {
 
 .header-address {
   font-style: normal;
-}
-.header-mail,
-.header-tel {
-    font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+ 
+}
+.header-mail,
+.header-tel {
   color: #434455;
 }
-.header-mail:hover,
-.header-tel:hover,
-.header-mail:focus,
-.header-tel:focus {
+
+.header-mail:hover, .header-mail:focus,
+.header-tel:hover, .header-tel:focus
+ {
   color: #404bbf;
 }
 
