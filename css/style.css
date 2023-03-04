@@ -20,12 +20,7 @@ body {
   cursor: pointer;
 }
 
-.button-color {
-  color: #404BBF;
-}
-.button-color:hover, .button:focus {
-  color: #F4F4FD;
-}
+
 /* ---------- HEADER ------------ */
 /* header-logo */
 .logo {
