@@ -173,11 +173,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-}
-.button-text:hover,
-.button-text:focus {
-  color:  #4d5ae5;
+ 
 }
 
 /* ---------row-------------- */
