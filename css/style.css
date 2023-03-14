@@ -87,15 +87,23 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-wite)
 }
+.hero-btn {
+  background: var(--color-iris);
+  color: var(--color-wite);
+}
+
+.hero-btn:is(:hover, :focus) {background: var(--color-ocean);}
 
 /*-------------- section 1 ------------*/
 .feature-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.20;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   
@@ -124,10 +132,14 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
  
+}
+.team {
+  background: var(--color-cloud);
 }
 
 .team-img {
@@ -153,6 +165,10 @@ body {
   color: var(--color-slate)
 }
 
+.team-item {
+  background: var(--color-wite);
+}
+
 /* ------filters--------- */
 
 .button-text {
@@ -165,11 +181,20 @@ body {
  
 }
 
+.portfolio-btn {
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+}
+
+.portfolio-btn:is(:hover, :focus) {
+  color: var(--color-wite);
+  background-color: var(--color-ocean);
+}
+
 /* ---------row-------------- */
 
 .row-img {
-  
-  
+    
 }
 
 .row-title {
