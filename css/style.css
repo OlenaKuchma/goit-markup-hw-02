@@ -1,10 +1,21 @@
 :root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-wite: #ffffff;
 }
 
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  color: #434455
+  color: var(--color-slate)
   
 }
  
@@ -28,30 +39,27 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17em;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-iris);
 }
 .logo-color {
-  color: #2e2f42;
+  color: var(--color-navy-blue);
 }
 
 /* header-link */
 
 .header-link {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue);
   
 }
 .header-link:hover,
 .header-link:focus {
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 /* header-address */
 .address {
@@ -62,26 +70,25 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate)
 }
 
 .header-address:hover, .header-address:focus
  {
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 
 /* ----------- HERO ------------- */
 
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--color-navy-blue);
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-wite)
 }
 
 /*-------------- section 1 ------------*/
@@ -90,7 +97,7 @@ body {
   font-size: 20px;
   line-height: 1.20;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue);
   
 }
 
@@ -99,7 +106,7 @@ body {
   font-size: 16px;
   line-height: 1.50;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate)
 }
 
 /* -------------doing-------------- */
@@ -108,15 +115,7 @@ body {
   box-sizing: border-box;
   width: 360px;
   height: 300px;
-  background: linear-gradient(
-      0deg,
-      rgba(77, 90, 229, 0.1),
-      rgba(77, 90, 229, 0.1)
-    ),
-    url(2368.jpg);
-  background-blend-mode: soft-light, normal;
-  border: 1px solid #e7e9fc;
-}
+  }
 
 /* ---------team------------------ */
 
@@ -125,18 +124,16 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-navy-blue);
  
 }
 
 .team-img {
   width: 264px;
   height: 260px;
-  background: url(confident-handsome-guy-posing-against-white-wall.jpg);
-  mix-blend-mode: normal;
+ 
 }
 
 .team-item-title {
@@ -145,15 +142,15 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue);
 
 }
 .team-item-text {
-    font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate)
 }
 
 /* ------filters--------- */
@@ -164,9 +161,6 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
  
 }
@@ -174,18 +168,8 @@ body {
 /* ---------row-------------- */
 
 .row-img {
-  width: 360px;
-  height: 300px;
-  left: 0px;
-  top: 0px;
-  background: linear-gradient(
-      0deg,
-      rgba(77, 90, 229, 0.1),
-      rgba(77, 90, 229, 0.1)
-    ),
-    url(4074365.jpg);
-  background-blend-mode: soft-light, normal;
-  mix-blend-mode: normal;
+  
+  
 }
 
 .row-title {
@@ -193,7 +177,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue);
   
 }
 .row-text {
@@ -201,7 +185,7 @@ body {
   font-size: 16px;
   line-height: 1.50;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate)
 }
 
 /* ----------footer----------- */
@@ -210,10 +194,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--color-cornflower);
 }
 .footer {
-  background: #2e2f42;
+  background: var(--color-navy-blue);
 }
 
 .footer-logo {
@@ -221,13 +205,11 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17em;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-iris);
 }
 .footer-logo-color {
-  color:#f4f4fd;
+  color: var(--color-cloud);
 }
 
