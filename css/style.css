@@ -93,7 +93,7 @@ body {
   cursor: pointer;
 }
 
-.hero-btn:is(:hover, :focus) {color: var(--color-ocean);}
+.hero-btn:is(:hover, :focus) {color: #404bbf;}
 
 /*-------------- section 1 ------------*/
 .feature-title {
