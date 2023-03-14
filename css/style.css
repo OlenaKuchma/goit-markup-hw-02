@@ -27,9 +27,6 @@ body {
   list-style: none;
 }
 
-.pointer {
-  cursor: pointer;
-}
 
 
 /* ---------- HEADER ------------ */
@@ -73,9 +70,8 @@ body {
   color: var(--color-slate)
 }
 
-.header-address:hover, .header-address:focus
- {
-  color: var(--color-ocean);
+.header-address:is(:hover, :focus) 
+ { color: var(--color-ocean);
 }
 
 /* ----------- HERO ------------- */
@@ -94,6 +90,7 @@ body {
 .hero-btn {
   background: var(--color-iris);
   color: var(--color-wite);
+  cursor: pointer;
 }
 
 .hero-btn:is(:hover, :focus) {background: var(--color-ocean);}
@@ -184,6 +181,7 @@ body {
 .portfolio-btn {
   color: var(--color-iris);
   background-color: var(--color-cloud);
+  cursor: pointer;
 }
 
 .portfolio-btn:is(:hover, :focus) {
